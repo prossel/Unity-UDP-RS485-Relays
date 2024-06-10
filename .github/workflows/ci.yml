@@ -37,7 +37,7 @@ jobs:
         echo pushing upm branch
         #git remote set-url origin https://${{ secrets.GH_TOKEN }}@github.com/prossel/Unity-UDP-RS485-Relays.git
         #git push -f -u origin upm
-        git config credential.helper='!f() { echo username=prossel; echo "password=$GH_TOKEN"; };f'
+        git config credential.helper '!f() { echo username=prossel; echo "password=$GH_TOKEN"; };f'
         git push -f -u origin upm
         git config credential.helper=
         echo done
