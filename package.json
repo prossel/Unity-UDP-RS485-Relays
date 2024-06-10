@@ -1,0 +1,17 @@
+{
+  "name": "com.prossel.unity-udp-rs485-relays",
+  "version": "1.0.0",
+  "displayName": "UDP RS485 Relays",
+  "description": "Control relays through an UDP gateway and a RS485 relay box",
+  "documentationUrl": "https://github.com/prossel/Unity-UDP-RS485-Relays",
+  "changelogUrl": "https://github.com/prossel/Unity-UDP-RS485-Relays/CHANGELOG.md",
+  "author": {
+    "name": "Pierre Rossel",
+    "url": "https://github.com/prossel/"
+  },
+  "samples": {
+    "displayName": "DemoToggleRelays",
+    "description": "Simple demo to toggle relays on a RS485 relay box",
+    "path": "Samples~/DemoToggleRelays"
+ }
+}
