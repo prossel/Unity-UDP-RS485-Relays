@@ -26,6 +26,7 @@ UdpRelays.Instance.SetRelay(255, false); // turn off all relays
 
 ### DemoToggleRelays
 
+* Using Package Manager, find XR Interaction Toolkit, Samples and import the Hands interaction demo
 * Open the scene `Assets/Murmuration/Scenes/DemoToggleRelays.unity`
 * Play in Unity Editor and click the cubes to toggle the relays
 * Build and run in the headset to toggle the relays in VR
