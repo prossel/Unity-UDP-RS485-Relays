@@ -6,11 +6,16 @@ The [Murmuration-UDPSerial-gateway](https://github.com/prossel/Murmuration-UDPSe
 
 Unity project based on [Unity-Template-QuestXRHandsURP](https://github.com/prossel/Unity-Template-QuestXRHandsURP)
 
+## Installation
+
+In Unity, open Window > Package Manager.
+Press the + button, choose "Add package from git URL..."
+Enter "https://github.com/prossel/Unity-UDP-RS485-Relays.git#upm" and press Add.
+
 ## Getting started
 
-* Copy the Assets/Murmuration folder in your project (including meta files)
 * Add an Empty GameObject to your scene "UDP Relays"
-* Add the UDP Relays component
+* Add the *UDP Relays* component
 * From your scripts, call the functions to manipulate the relays
 
 ### Examples
