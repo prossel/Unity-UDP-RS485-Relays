@@ -34,20 +34,13 @@ jobs:
           git config --global user.email 'github-bot@users.noreply.github.com'
           git commit -am "fix: Samples => Samples~"
         fi
-        echo pushing upm branch
-        #git remote set-url origin https://${{ secrets.GH_TOKEN }}@github.com/prossel/Unity-UDP-RS485-Relays.git
-        #git push -f -u origin upm
-        #git config credential.helper '!f() { echo username=prossel; echo "password=$GH_TOKEN"; };f'
         git config credential.helper '!f() { echo username=prossel; echo "password=${{ secrets.GH_TOKEN }}"; };f'
         git push -f -u origin upm
-        echo done
       env:
         PKG_ROOT: Packages/com.prossel.unity-udp-rs485-relays
-        #GH_TOKEN: ${{ secrets.GH_TOKEN }}
     - name: Create upm git tag
       if: steps.semantic.outputs.new_release_published == 'true'
       run: |
-        #git config credential.helper '!f() { echo username=prossel; echo "password=${{ secrets.GH_TOKEN }}"; };f'
         git tag $TAG upm
         git push origin --tags
         git config credential.helper ''
