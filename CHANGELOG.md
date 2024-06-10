@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/prossel/Unity-UDP-RS485-Relays/compare/v1.0.4...v1.0.5) (2024-06-10)
+
+
+### Bug Fixes
+
+* CI clear temp credential helper ([e915409](https://github.com/prossel/Unity-UDP-RS485-Relays/commit/e9154099996e7d01ddf113a62c01e8d69aad4675))
+
 ## [1.0.4](https://github.com/prossel/Unity-UDP-RS485-Relays/compare/v1.0.3...v1.0.4) (2024-06-10)
 
 
