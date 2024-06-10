@@ -30,3 +30,7 @@ UdpRelays.Instance.SetRelay(255, false); // turn off all relays
 * Open the scene `Assets/Murmuration/Scenes/DemoToggleRelays.unity`
 * Play in Unity Editor and click the cubes to toggle the relays
 * Build and run in the headset to toggle the relays in VR
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md)
