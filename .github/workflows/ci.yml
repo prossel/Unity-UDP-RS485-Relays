@@ -36,6 +36,7 @@ jobs:
           git commit -am "fix: Samples => Samples~"
         fi
         echo pushing upm branch
+        git remote set-url origin git@github.com:prossel/Unity-UDP-RS485-Relays.git
         git push -f -u origin upm
         echo done
       env:
