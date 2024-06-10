@@ -27,7 +27,6 @@ Pierre Rossel - 2024-06-06 - v1.0 - Initial version
 using System;
 using System.Linq;
 using System.Net.Sockets;
-using Unity.VisualScripting;
 using UnityEngine;
 
 
@@ -89,7 +88,7 @@ public class UdpRelays : MonoBehaviour
             }
 
             // Debug.Log("Received " + result.Buffer.Length + " bytes: " + Encoding.UTF8.GetString(result.Buffer));
-            Debug.Log("Received " + result.Buffer.Length + " bytes: " + result.Buffer.ToHexString());
+            Debug.Log("Received " + result.Buffer.Length + " bytes: " + BitConverter.ToString(result.Buffer));
 
             if (result.Buffer.Length == 0)
             {
