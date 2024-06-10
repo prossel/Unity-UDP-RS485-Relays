@@ -20,7 +20,7 @@ jobs:
           @semantic-release/git
         branch: main
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
     - name: Create upm branch
       run: |
         git branch -d upm &> /dev/null || echo upm branch not found
