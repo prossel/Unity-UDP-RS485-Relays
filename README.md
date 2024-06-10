@@ -1,6 +1,6 @@
-# Demo RS485 Relays
+# Unity UDP RS485 Relays
 
-Unity demo project to show how to control relays through an UDP gateway to RS485 relay box.
+Control relays with Unity through an UDP gateway and a RS485 relay box.
 
 The [Murmuration-UDPSerial-gateway](https://github.com/prossel/Murmuration-UDPSerial-gateway) must be running on the local netword (or on the same machine),
 
@@ -8,9 +8,9 @@ Unity project based on [Unity-Template-QuestXRHandsURP](https://github.com/pross
 
 ## Installation
 
-In Unity, open Window > Package Manager.
-Press the + button, choose "Add package from git URL..."
-Enter "https://github.com/prossel/Unity-UDP-RS485-Relays.git#upm" and press Add.
+* In Unity, open Window > Package Manager.
+* Press the + button, choose "Add package from git URL..."
+* Enter "https://github.com/prossel/Unity-UDP-RS485-Relays.git#upm" and press Add.
 
 ## Getting started
 
@@ -32,6 +32,7 @@ UdpRelays.Instance.SetRelay(255, false); // turn off all relays
 ### DemoToggleRelays
 
 * Using Package Manager, find XR Interaction Toolkit, Samples and import the Hands interaction demo
+* Fix project validation issues if any by importing missing examples from other packages.
 * Open the scene `Assets/Murmuration/Scenes/DemoToggleRelays.unity`
 * Play in Unity Editor and click the cubes to toggle the relays
 * Build and run in the headset to toggle the relays in VR
