@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/prossel/Unity-UDP-RS485-Relays/compare/v1.0.8...v1.0.9) (2024-06-10)
+
+
+### Bug Fixes
+
+* readme ([09239e1](https://github.com/prossel/Unity-UDP-RS485-Relays/commit/09239e16042c842e0d05e4dca5ad6899ecd6d5e5))
+
 ## [1.0.8](https://github.com/prossel/Unity-UDP-RS485-Relays/compare/v1.0.7...v1.0.8) (2024-06-10)
 
 
