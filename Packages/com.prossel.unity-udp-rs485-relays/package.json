@@ -1,6 +1,6 @@
 {
   "name": "com.prossel.unity-udp-rs485-relays",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "displayName": "UDP RS485 Relays",
   "description": "Control relays through an UDP gateway and a RS485 relay box",
   "documentationUrl": "https://github.com/prossel/Unity-UDP-RS485-Relays",
