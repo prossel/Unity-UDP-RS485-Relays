@@ -20,7 +20,6 @@ jobs:
           @semantic-release/changelog
           @semantic-release/git
         branch: main
-        persist-credentials: false
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
     - name: Create upm branch
@@ -36,9 +35,11 @@ jobs:
           git commit -am "fix: Samples => Samples~"
         fi
         echo pushing upm branch
-        #git remote set-url origin git@github.com:prossel/Unity-UDP-RS485-Relays.git
-        git remote set-url origin https://${{ secrets.GH_TOKEN }}@github.com/prossel/Unity-UDP-RS485-Relays.git
-        git push -f -u origin upm
+        #git remote set-url origin https://${{ secrets.GH_TOKEN }}@github.com/prossel/Unity-UDP-RS485-Relays.git
+        #git push -f -u origin upm
+        git push -c credential.helper= \
+          -c credential.helper='!f() { echo username=prossel; echo "password=$GH_TOKEN"; };f' \
+          -f origin upm
         echo done
       env:
         PKG_ROOT: Packages/com.prossel.unity-udp-rs485-relays
