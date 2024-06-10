@@ -39,7 +39,6 @@ jobs:
         #git push -f -u origin upm
         git config credential.helper '!f() { echo username=prossel; echo "password=$GH_TOKEN"; };f'
         git push -f -u origin upm
-        git config credential.helper ''
         echo done
       env:
         PKG_ROOT: Packages/com.prossel.unity-udp-rs485-relays
@@ -49,5 +48,6 @@ jobs:
       run: |
         git tag $TAG upm
         git push origin --tags
+        git config credential.helper ''
       env:
         TAG: upm/v${{ steps.semantic.outputs.new_release_version }}
