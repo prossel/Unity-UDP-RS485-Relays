@@ -13,5 +13,5 @@
     "displayName": "DemoToggleRelays",
     "description": "Simple demo to toggle relays on a RS485 relay box",
     "path": "Samples~/DemoToggleRelays"
- }
+  }
 }
