@@ -46,8 +46,8 @@ jobs:
     - name: Create upm git tag
       if: steps.semantic.outputs.new_release_published == 'true'
       run: |
+        git config credential.helper '!f() { echo username=prossel; echo "password=${{ secrets.GH_TOKEN }}"; };f'
         git tag $TAG upm
         git push origin --tags
-        git config credential.helper ''
       env:
         TAG: upm/v${{ steps.semantic.outputs.new_release_version }}
