@@ -39,7 +39,7 @@ jobs:
         #git push -f -u origin upm
         git config credential.helper '!f() { echo username=prossel; echo "password=$GH_TOKEN"; };f'
         git push -f -u origin upm
-        git config credential.helper=
+        git config credential.helper ''
         echo done
       env:
         PKG_ROOT: Packages/com.prossel.unity-udp-rs485-relays
