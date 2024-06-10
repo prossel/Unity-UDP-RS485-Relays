@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/prossel/Unity-UDP-RS485-Relays/compare/v1.0.7...v1.0.8) (2024-06-10)
+
+
+### Bug Fixes
+
+* samples import buton from upm ([4737185](https://github.com/prossel/Unity-UDP-RS485-Relays/commit/4737185b66a274366d1488b53486cc7588cb617e))
+
 # CHANGELOG
 
 All notable changes to this project will be documented in this file.
