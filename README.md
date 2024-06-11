@@ -14,17 +14,27 @@ Unity project based on [Unity-Template-QuestXRHandsURP](https://github.com/pross
 
 ## Getting started
 
-* Add an Empty GameObject to your scene "UDP Relays"
-* Add the *UDP Relays* component
-* From your scripts, call the functions to manipulate the relays
+* Add "UDP Relays Manager" prefab to your scene
+* Add the *UDP Relays* component to any script to control the relays from UnityEvent's, animation events or your scripts
+* Or from your scripts, directly call the manager's functions to manipulate the relays
 
 ### Examples
 
-```c#
-UdpRelays.Instance.RelayOn(1);           // turn on relay 1
-UdpRelays.Instance.RelayOff(2);          // turn off relay 2
-UdpRelays.Instance.RelayToggle(3);       // toggle relay 3
-UdpRelays.Instance.SetRelay(255, false); // turn off all relays
+```C#
+
+# Direct call the manager functions (esasier from code)
+UdpRelaysManager.Instance.RelayOn(1);           // turn on relay 1
+UdpRelaysManager.Instance.RelayOff(2);          // turn off relay 2
+UdpRelaysManager.Instance.RelayToggle(3);       // toggle relay 3
+UdpRelaysManager.Instance.SetRelay(255, false); // turn off all relays
+
+# Or call functions from UDP Relays component on the same object
+UdpRelays relays = GetComponent<UdpRelays>();
+relays.RelayOn(1);           // turn on relay 1
+relays.RelayOff(2);          // turn off relay 2
+relays.RelayToggle(3);       // toggle relay 3
+relays.SetRelay(255, false); // turn off all relays
+
 ```
 
 ## Run the demo
