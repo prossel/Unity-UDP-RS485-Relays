@@ -8,9 +8,9 @@ Unity project based on [Unity-Template-QuestXRHandsURP](https://github.com/pross
 
 ## Installation
 
-* In Unity, open Window > Package Manager.
+* In Unity, open Window > Package Manager
 * Press the + button, choose "Add package from git URL..."
-* Enter "https://github.com/prossel/Unity-UDP-RS485-Relays.git#upm" and press Add.
+* Enter https://github.com/prossel/Unity-UDP-RS485-Relays.git#upm and press Add
 
 ## Getting started
 
