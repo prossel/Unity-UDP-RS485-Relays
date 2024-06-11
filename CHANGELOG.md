@@ -1,3 +1,17 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.1.1](https://github.com/prossel/Unity-UDP-RS485-Relays/compare/v1.1.0...v1.1.1) (2024-06-11)
+
+
+### Bug Fixes
+
+* changelog heading ([bdf8334](https://github.com/prossel/Unity-UDP-RS485-Relays/commit/bdf83347642b031e0904238cd23dc254651e0ed7))
+* changelog heading ([f0b63c2](https://github.com/prossel/Unity-UDP-RS485-Relays/commit/f0b63c2108f0076a98133333b11b79f9e0b97059))
+
 # [1.1.0](https://github.com/prossel/Unity-UDP-RS485-Relays/compare/v1.0.9...v1.1.0) (2024-06-11)
 
 
