@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/prossel/Unity-UDP-RS485-Relays/compare/v1.0.9...v1.1.0) (2024-06-11)
+
+
+### Features
+
+* add prefab and split UDP Relay and UDP Relay manager for more use cases ([7a6ef65](https://github.com/prossel/Unity-UDP-RS485-Relays/commit/7a6ef658bb94d20324aeaa06ec246c1a81a4a53b))
+
 ## [1.0.9](https://github.com/prossel/Unity-UDP-RS485-Relays/compare/v1.0.8...v1.0.9) (2024-06-10)
 
 
