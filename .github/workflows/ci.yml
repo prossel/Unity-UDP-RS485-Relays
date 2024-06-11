@@ -20,7 +20,6 @@ jobs:
           @semantic-release/changelog
           @semantic-release/git
         branch: main
-        changelogTitle: '# CHANGELOG'
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
     - name: Create upm branch
