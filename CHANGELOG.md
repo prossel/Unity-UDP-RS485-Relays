@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.3.0](https://github.com/prossel/Unity-UDP-RS485-Relays/compare/v1.2.0...v1.3.0) (2024-06-12)
+
+
+### Bug Fixes
+
+* improve shadows quality ([eb826cb](https://github.com/prossel/Unity-UDP-RS485-Relays/commit/eb826cb2b1cd4b5033c03a238373f939cae694cf))
+
+
+### Features
+
+* interaction affordance ([56bef78](https://github.com/prossel/Unity-UDP-RS485-Relays/commit/56bef78721f89d846b93590a4bb65692ba174997))
+
 # [1.2.0](https://github.com/prossel/Unity-UDP-RS485-Relays/compare/v1.1.3...v1.2.0) (2024-06-12)
 
 
